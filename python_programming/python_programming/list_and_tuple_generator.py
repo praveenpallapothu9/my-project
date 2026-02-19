@@ -1,0 +1,5 @@
+number = input("Enter the data:")
+data_number =number.split(',')
+print(data_number)
+print(f"List :{list(data_number)}")
+print(f"Tuple : {tuple(data_number)}")
